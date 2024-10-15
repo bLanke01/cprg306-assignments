@@ -84,6 +84,7 @@ export default function NewItem() {
 
                 <input 
                 type="submit" value="Add Item" className= "m-2 text-black hover:bg-blue-300" 
+                onClick={(handleSubmit)}
                 />
 
             </form>
